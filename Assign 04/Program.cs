@@ -32,6 +32,14 @@ namespace Assign_04
         //    Console.WriteLine(string.Join(", ", nums));
         //} 
         #endregion
+        #region Q3 Fn
+        //static (int,int) SumSub(int a,int b,int c,int d)
+        //{
+        //    int sum = a + b ;
+        //    int sub = d - c ;
+        //    return (sum, sub);
+        //}
+        #endregion
 
 
         static void Main(string[] args)
@@ -74,6 +82,28 @@ namespace Assign_04
             //GetPassingByRefByref(ref numbers);
             //Console.WriteLine(string.Join(",", numbers));
             #endregion
+            #region Q3
+            // 3-Write a c# Function that accept 4 parameters from user and return result of summation and subtracting of two numbers
+            // Taking input from the user  
+            //Console.Write("Enter first number: ");
+            //int num1 = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter second number: ");
+            //int num2 = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter third number: ");
+            //int num3 = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter fourth number: ");
+            //int num4 = int.Parse(Console.ReadLine());
+
+            //(int sum, int Sub) = SumSub(num1,num2,num3,num4);
+
+            //Console.WriteLine($"Sum of first two numbers: {sum}");
+            //Console.WriteLine($"Difference of last two numbers: {Sub}");
+
+            #endregion
+
 
         }
     }
