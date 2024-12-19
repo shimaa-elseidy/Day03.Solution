@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Threading.Channels;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assign_04
 {
@@ -33,11 +34,32 @@ namespace Assign_04
         //} 
         #endregion
         #region Q3 Fn
-        //static (int,int) SumSub(int a,int b,int c,int d)
+        //static (int, int) sumsub(int a, int b, int c, int d)
         //{
-        //    int sum = a + b ;
-        //    int sub = d - c ;
+        //    int sum = a + b;
+        //    int sub = Math.Abs(d - c); //Math.Abs()=====>for Positive Value
         //    return (sum, sub);
+        //}
+        #endregion
+        #region Q4 Fn
+        //static int CalcSumOfDigit(int number)
+        //{
+        //    int sum = 0;
+        //    number=Math.Abs(number);//For Positive Value
+        //    while (number > 0)
+        //    {
+        //        sum += number % 10;   //hint =====%10 For Get The Last Digit === 25 % 10 = 5 ,  123 % 10 = 3.
+        //        number /= 10;        //Hint ======For Remove The Last Digit  === 25 / 10 = 2   ,123 / 10 = 12.
+        //    }
+        //    return sum;
+        //}
+
+
+        //================================== Another Function By Two Inputs================================
+        //static int Sum(int X, int Y, out int InputNumber)
+        //{
+        //    InputNumber = X + Y;
+        //    return InputNumber;
         //}
         #endregion
 
@@ -97,11 +119,39 @@ namespace Assign_04
             //Console.Write("Enter fourth number: ");
             //int num4 = int.Parse(Console.ReadLine());
 
-            //(int sum, int Sub) = SumSub(num1,num2,num3,num4);
+            //(int sum, int Sub) = sumsub(num1, num2, num3, num4);
 
             //Console.WriteLine($"Sum of first two numbers: {sum}");
             //Console.WriteLine($"Difference of last two numbers: {Sub}");
 
+            #endregion
+            #region Q4
+            /* 4 - Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
+                   Output should be like
+                   Enter a number: 25
+                  The sum of the digits of the number 25 is: 7
+            */
+            //Console.Write("Enter a number: ");
+            //string input = Console.ReadLine();
+            //if (int.TryParse(input ,out int num))
+            //{
+                
+            //    int digitSum = CalcSumOfDigit(num);
+
+            //    // Display the result  
+            //    Console.WriteLine($"The sum of the digits of the number {num} is: {digitSum}");
+            //}
+            //else
+            //{ 
+            //    Console.WriteLine("Invalid input. Please enter a valid integer.");
+            //}
+
+
+
+            //================================== Another Solution By Two Inputs================================
+            //int X = int.Parse(Console.ReadLine()), Y = int.Parse(Console.ReadLine()), InputNumber;
+            //Sum(X, Y, out InputNumber);
+            //Console.WriteLine($"Enter a number:{InputNumber}");
             #endregion
 
 
