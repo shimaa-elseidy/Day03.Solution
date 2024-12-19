@@ -62,7 +62,23 @@ namespace Assign_04
         //    return InputNumber;
         //}
         #endregion
-
+        #region Q5 fn
+        //static bool IsPrime(int num)
+        //{   
+        //    if (num <2)
+        //    {
+        //        return false;
+        //    }
+        //    for (int i = 2; i < Math.Sqrt(num); i++)
+        //    {
+        //        if (num % 2 == 0 )
+        //        {
+        //            return false;// kda even number
+        //        }
+        //    }
+        //    return true;
+        //}
+        #endregion
 
         static void Main(string[] args)
         {
@@ -135,7 +151,7 @@ namespace Assign_04
             //string input = Console.ReadLine();
             //if (int.TryParse(input ,out int num))
             //{
-                
+
             //    int digitSum = CalcSumOfDigit(num);
 
             //    // Display the result  
@@ -152,6 +168,23 @@ namespace Assign_04
             //int X = int.Parse(Console.ReadLine()), Y = int.Parse(Console.ReadLine()), InputNumber;
             //Sum(X, Y, out InputNumber);
             //Console.WriteLine($"Enter a number:{InputNumber}");
+            #endregion
+            #region Q5
+            // 5-	Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not:
+            //Console.WriteLine("Enter An Number : ");
+            //int number;
+            //while (!int.TryParse(Console.ReadLine(), out number))
+            //{
+            //    Console.Write("Invalid input. Please enter a valid number: ");
+            //}
+            //if (IsPrime(number) == true)
+            //{
+            //    Console.WriteLine($"{number} is a prime number.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{number} is not a prime number.");
+            //}
             #endregion
 
 
