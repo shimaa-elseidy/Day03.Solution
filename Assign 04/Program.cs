@@ -152,10 +152,10 @@ namespace Assign_04
         //    }
         //}
         #endregion
-        #region Q11
+        #region Q11 fn
         //static void MergeArrays(int[] arr1, int[] arr2, out int[] result)
         //{
-           
+
         //    if (arr1.Length == arr2.Length)
         //    {
 
@@ -169,7 +169,30 @@ namespace Assign_04
         //        Console.WriteLine("Error: Arrays must have the same size.");
         //        result = null;
         //}
-            
+
+        //}
+        #endregion
+        #region Q12 fn
+        //static void FrequencyOfItemsInArray(int[] arr )
+        //{
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+
+        //        if (arr[i] == -1)
+        //        {
+        //            continue;
+        //        }
+        //        int count = 1;
+        //        for (int j= i+1; j < arr.Length; j++)
+        //        {
+        //            if (arr[i] == arr[j])
+        //            {
+        //                count++; arr[j] = -1;
+        //            }
+        //        }
+        //        Console.WriteLine($"Element {arr[i]} appears {count} times.");
+        //    }
+
         //}
         #endregion
         static void Main(string[] args)
@@ -366,13 +389,20 @@ namespace Assign_04
             #endregion
             #region 11
             // 11-	- Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
-           // int[] arr1 = { 1, 2, 3 }, arr2 = { 4, 5, 6 }, result;
-           //MergeArrays(arr1, arr2, out result);
-           // Console.WriteLine("Merged and Sorted Array:");
-           // foreach (var item in result)
-           // {
-           //     Console.Write(item + " ");
-           // }
+            // int[] arr1 = { 1, 2, 3 }, arr2 = { 4, 5, 6 }, result;
+            //MergeArrays(arr1, arr2, out result);
+            // Console.WriteLine("Merged and Sorted Array:");
+            // foreach (var item in result)
+            // {
+            //     Console.Write(item + " ");
+            // }
+            #endregion
+            #region Q12
+            // 12-	 Write a program in C# Sharp to count the frequency of each element of an array
+            //int[] arr = { 1, 2, 1, 7 };;
+            
+            //FrequencyOfItemsInArray(arr);
+            
             #endregion
         }
     }
