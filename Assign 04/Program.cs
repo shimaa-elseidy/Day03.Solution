@@ -122,6 +122,25 @@ namespace Assign_04
         //    return result;
         //}
         #endregion
+        #region Q8 fn
+        //static string ChangeChar(string input, int position, char newChar)
+        //{   // Convert the string to a character array
+        //    char[] charArray = input.ToCharArray();
+        //    if (position==0)
+        //    {
+        //        charArray[position] = newChar;
+        //    }
+
+        //    else if
+        //       ( position < 0 || position >= input.Length)
+        //    {
+        //        Console.WriteLine("Position is out of range.");
+        //    }
+
+        //    // Convert the character array back to a string
+        //    return new string(charArray);//new as strin is immutable so i use new string
+        //}
+        #endregion
 
         static void Main(string[] args)
         {
@@ -250,6 +269,23 @@ namespace Assign_04
             //    long factorial = CalcFactorial(InputNum);
             //    Console.WriteLine($"The factorial of {InputNum} is: {factorial}");
             //}
+            #endregion
+            #region Q8
+            /*
+            8-	Create a function named "ChangeChar" to modify a letter in 
+                a certain position (0 based) of a string, replacing it with a different letter
+            */
+            //Console.Write("Enter a string: ");
+            //string input = Console.ReadLine();
+
+            //Console.Write("Enter the position to modify (0-based): ");
+            //int position = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter the new character: ");
+            //char newChar = Console.ReadLine()[0];
+
+            //string modifiedString = ChangeChar(input, position, newChar);
+            //Console.WriteLine($"Modified string: {modifiedString}");
             #endregion
 
         }
