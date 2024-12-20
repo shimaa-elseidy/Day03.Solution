@@ -96,18 +96,30 @@ namespace Assign_04
         //            max = arr[i];
         //        }
         //    }
-            // Or==============================
-            //foreach (var num in arr)
-            //{
-            //    if (num>max)
-            //    {
-            //        max = num;
-            //    }
-            //    else if (num>min)
-            //    {
-            //        min = num;
-            //    }
-            //}
+        // Or==============================
+        //foreach (var num in arr)
+        //{
+        //    if (num>max)
+        //    {
+        //        max = num;
+        //    }
+        //    else if (num>min)
+        //    {
+        //        min = num;
+        //    }
+        //}
+        //}
+        #endregion
+        #region Q7 fn
+        //static long CalcFactorial(int num)
+        //{
+        //    if (num == 0) return 1;//// If the number is 0, return 1 (because 0! = 1)
+        //    long result = 1;
+        //    for (int i = 1; i <= num; i++)
+        //    {
+        //        result *= i; 
+        //    }
+        //    return result;
         //}
         #endregion
 
@@ -224,6 +236,20 @@ namespace Assign_04
             //MinMaxArray( arr, ref min, ref max);
             //Console.WriteLine($" Min Value : {min}");
             //Console.WriteLine($" Max Value : {max}");
+            #endregion
+            #region Q7
+            //7-	Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
+            //Console.WriteLine("Enter A Number To Calculate The Factorial ");
+            //int InputNum = int.Parse(Console.ReadLine());
+            //if (InputNum < 0)
+            //{
+            //    Console.WriteLine("Factorial of negative numbers cannot be calculated.");
+            //}
+            //else
+            //{
+            //    long factorial = CalcFactorial(InputNum);
+            //    Console.WriteLine($"The factorial of {InputNum} is: {factorial}");
+            //}
             #endregion
 
         }
