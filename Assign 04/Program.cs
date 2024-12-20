@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Security.Principal;
 using System.Threading.Channels;
 using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -141,7 +142,6 @@ namespace Assign_04
         //    return new string(charArray);//new as strin is immutable so i use new string
         //}
         #endregion
-
         static void Main(string[] args)
         {
             #region Q1
@@ -286,6 +286,45 @@ namespace Assign_04
 
             //string modifiedString = ChangeChar(input, position, newChar);
             //Console.WriteLine($"Modified string: {modifiedString}");
+            #endregion
+            #region Q9
+            /*
+             9-	 Write a program that prints an identity matrix using for loop, 
+                 in other words takes a value n from the user and shows the identity table of size n * n.
+             */
+            //  ****          Identity Matrix           ****
+            //An identity matrix is a square matrix where:
+            //All diagonal elements are 1.
+            //All non-diagonal elements are 0.
+
+            //Console.Write("Enter the size of the identity matrix (n): ");
+            //int n;
+
+            //while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
+            //{
+            //    Console.Write("Invalid input. Please enter a positive integer: ");
+            //}
+
+            //Console.WriteLine($"Identity Matrix of size {n} x {n}:\n");
+
+            //// Generate and print the identity matrix
+            //for (int i = 0; i < n; i++) 
+            //{
+            //    for (int j = 0; j < n; j++) 
+            //    {
+            //        if (i == j) 
+            //        {
+            //            Console.Write("1 ");
+            //        }
+            //        else
+            //        {
+            //            Console.Write("0 ");
+            //        }
+            //    }
+            //    Console.WriteLine(); 
+
+            //}
+
             #endregion
 
         }
