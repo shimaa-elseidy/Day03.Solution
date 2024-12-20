@@ -555,7 +555,31 @@ namespace Assign_04
 
 
             #endregion
-        }  
+            #region Q19
+            // 19 - Write a Program to Print One Dimensional Array in Reverse Order
+  
+               // Console.WriteLine("Enter the number of elements in the array: ");
+               // int n = int.Parse(Console.ReadLine());
+
+               //int[] array = new int[n];
+               // Console.WriteLine($"Enter {n} elements separated by space: ");
+               // string[] input = Console.ReadLine().Split(' ');
+
+               // for (int i = 0; i < n; i++)
+               // {
+               //     array[i] = int.Parse(input[i]); 
+               // }
+
+            
+               // Console.WriteLine("Array in reverse order: ");
+               // for (int i = n - 1; i >= 0; i--)
+               // {
+               //     Console.Write(array[i] + " ");  
+               // }
+
+               // Console.WriteLine();  
+        #endregion
+    }
     }
     }
 
