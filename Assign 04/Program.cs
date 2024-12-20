@@ -227,6 +227,15 @@ namespace Assign_04
 
 
         #endregion
+        #region Q14 fn
+        //static void SecMaxElement(int[] arr)
+        //{
+        //    Array.Sort(arr);
+        //    int secMax = arr[arr.Length - 2];
+        //    Console.WriteLine($"The second largest element is: {secMax}");
+        //}
+        #endregion
+
         static void Main(string[] args)
         {
             #region Q1
@@ -438,11 +447,16 @@ namespace Assign_04
             #endregion
             #region Q13
             // 13-	 Write a program in C# Sharp to find maximum and minimum element in an array
-            int[] nums = { 100, 22, 33, 99 };
-           
-            MaxMin(nums);
+            //int[] nums = { 100, 22, 33, 99 };
+
+            //MaxMin(nums);
 
 
+            #endregion
+            #region Q14
+            //14 - Write a program in C# Sharp to find the second largest element in an array.
+            //int[] nums = { 100, 28, 30, 44, 55, 99 };
+            //SecMaxElement(nums);
             #endregion
         }
     }
