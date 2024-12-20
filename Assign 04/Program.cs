@@ -195,6 +195,38 @@ namespace Assign_04
 
         //}
         #endregion
+        #region Q13 fn
+        //static void MaxMin(int[] arr)
+        //{
+        //    int max = arr[0];
+        //    int min = arr[0];
+        //    for (int i = 1; i < arr.Length; i++)
+        //    {
+        //        if (arr[i]>max)
+        //        {
+        //            max = arr[i];
+        //        }
+        //        else if (arr[i]<min)
+        //        {
+        //            min = arr[i];
+        //        }
+        //    }
+        //    Console.WriteLine("The maximum value is: " + max);
+        //    Console.WriteLine("The minimum value is: " + min);
+        //}
+
+        //==========Another Solution========
+        //static void MaxMin(int[] arr)
+        //{
+        //    Array.Sort(arr);
+        //    int min = arr[0];
+        //    int max = arr[arr.Length - 1];
+        //    Console.WriteLine("The maximum value is: " + max);
+        //    Console.WriteLine("The minimum value is: " + min);
+        //}
+
+
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -400,9 +432,17 @@ namespace Assign_04
             #region Q12
             // 12-	 Write a program in C# Sharp to count the frequency of each element of an array
             //int[] arr = { 1, 2, 1, 7 };;
-            
+
             //FrequencyOfItemsInArray(arr);
-            
+
+            #endregion
+            #region Q13
+            // 13-	 Write a program in C# Sharp to find maximum and minimum element in an array
+            int[] nums = { 100, 22, 33, 99 };
+           
+            MaxMin(nums);
+
+
             #endregion
         }
     }
