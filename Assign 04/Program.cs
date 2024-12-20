@@ -458,6 +458,39 @@ namespace Assign_04
             //int[] nums = { 100, 28, 30, 44, 55, 99 };
             //SecMaxElement(nums);
             #endregion
+            #region Q15,16
+            //        Console.Write("Enter the number of elements: ");
+            //        int n = int.Parse(Console.ReadLine());
+
+            //        int[] array = new int[n];
+            //        Console.WriteLine("Enter the elements (e.g., 1 2 3 1):");
+            //        string[] inputs = Console.ReadLine().Split(' ');
+
+            //        for (int i = 0; i < n; i++)
+            //        {
+            //            array[i] = int.Parse(inputs[i]);
+            //        }
+
+            //        int maxDistance = -1; // Start with a minimum value  
+
+            //        // Look for pairs of equal elements  
+            //        for (int i = 0; i < n; i++)
+            //        {
+            //            for (int j = i + 1; j < n; j++)
+            //            {
+            //                if (array[i] == array[j])
+            //                {
+            //                    int distance = j - i - 1; // Calculate the distance between the two equal elements  
+            //                    if (distance > maxDistance)
+            //                    {
+            //                        maxDistance = distance; // Update if we found a larger distance  
+            //                    }
+            //                }
+            //            }
+            //        }
+
+            //        Console.WriteLine("The longest distance between equal elements is: " + maxDistance);
+            #endregion
         }
     }
 }
