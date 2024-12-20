@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Threading.Channels;
+using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assign_04
@@ -77,6 +78,36 @@ namespace Assign_04
         //        }
         //    }
         //    return true;
+        //}
+        #endregion
+        #region Q6 fn
+        //static void MinMaxArray( int[] arr , ref int min ,ref int max)
+        //{
+        //     min = arr[0]; 
+        //     max = arr[0]; 
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {   
+        //        if (arr[i] < min  )
+        //        {
+        //             min = arr[i] ;
+        //        }
+        //        if ( arr[i] > max)
+        //        {
+        //            max = arr[i];
+        //        }
+        //    }
+            // Or==============================
+            //foreach (var num in arr)
+            //{
+            //    if (num>max)
+            //    {
+            //        max = num;
+            //    }
+            //    else if (num>min)
+            //    {
+            //        min = num;
+            //    }
+            //}
         //}
         #endregion
 
@@ -186,7 +217,14 @@ namespace Assign_04
             //    Console.WriteLine($"{number} is not a prime number.");
             //}
             #endregion
-
+            #region Q6
+            //6 - Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
+            //int[] arr = { 1, 2, 3, 4, 5, 6 };
+            //int min =0, max=0;
+            //MinMaxArray( arr, ref min, ref max);
+            //Console.WriteLine($" Min Value : {min}");
+            //Console.WriteLine($" Max Value : {max}");
+            #endregion
 
         }
     }
