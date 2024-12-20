@@ -142,6 +142,16 @@ namespace Assign_04
         //    return new string(charArray);//new as strin is immutable so i use new string
         //}
         #endregion
+        #region Q10 fn
+        //static void GetSumOfArray(int[] Arr,out int sum)
+        //{
+        //    sum=0;
+        //    for (int i = 0; i < Arr.Length; i++)
+        //    {
+        //        sum += Arr[i];
+        //    }
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -326,7 +336,14 @@ namespace Assign_04
             //}
 
             #endregion
-
+            #region Q10
+            // 10 - Write a program in C# Sharp to find the sum of all elements of the array.
+            
+            //int[] array = { 1, 2, 3, 4 };
+            //int sum;
+            //GetSumOfArray(array, out sum);
+            //Console.WriteLine($"The Sum Of All Elements Of The Array: {sum}"); 
+            #endregion
         }
     }
 }
