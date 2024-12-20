@@ -152,6 +152,26 @@ namespace Assign_04
         //    }
         //}
         #endregion
+        #region Q11
+        //static void MergeArrays(int[] arr1, int[] arr2, out int[] result)
+        //{
+           
+        //    if (arr1.Length == arr2.Length)
+        //    {
+
+        //        result = new int[arr1.Length + arr2.Length];
+        //        arr1.CopyTo(result, 0);
+        //        arr2.CopyTo(result, arr1.Length);
+        //        Array.Sort(result);
+        //    }
+        //    else
+        // { 
+        //        Console.WriteLine("Error: Arrays must have the same size.");
+        //        result = null;
+        //}
+            
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -338,11 +358,21 @@ namespace Assign_04
             #endregion
             #region Q10
             // 10 - Write a program in C# Sharp to find the sum of all elements of the array.
-            
+
             //int[] array = { 1, 2, 3, 4 };
             //int sum;
             //GetSumOfArray(array, out sum);
             //Console.WriteLine($"The Sum Of All Elements Of The Array: {sum}"); 
+            #endregion
+            #region 11
+            // 11-	- Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+           // int[] arr1 = { 1, 2, 3 }, arr2 = { 4, 5, 6 }, result;
+           //MergeArrays(arr1, arr2, out result);
+           // Console.WriteLine("Merged and Sorted Array:");
+           // foreach (var item in result)
+           // {
+           //     Console.Write(item + " ");
+           // }
             #endregion
         }
     }
