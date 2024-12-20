@@ -243,7 +243,12 @@ namespace Assign_04
         //}
 
         #endregion
-
+        #region Q18 fn
+        //static void CopyArray(int[,] Arr, int[,] SecArr)
+        //{
+        //    Array.Copy(Arr, SecArr, Arr.Length);
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -509,6 +514,48 @@ namespace Assign_04
 
             //Console.WriteLine("Reversed Text: " + string.Join(" ", reversedWords));
             #endregion
-        }
+            #region Q18
+            /* 18- Write a program to create two multidimensional arrays of same size.
+                   Accept values from the user and store them in first array.
+                   Now copy all the elements of the first array on second array and print second array.
+            */
+            //Console.WriteLine("Please, Enter the size of the arrays (rows and columns separated by space): ");
+            //string[] sizeInput = Console.ReadLine().Split(' ');
+            //int rows = int.Parse(sizeInput[0]);
+            //int cols = int.Parse(sizeInput[1]);
+
+
+            //int[,] firstArray = new int[rows, cols];
+            //int[,] secondArray = new int[rows, cols];
+
+            //Console.WriteLine("Enter values for the first array (space-separated): ");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    string[] lineInput = Console.ReadLine().Split(' ');
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        firstArray[i, j] = int.Parse(lineInput[j]);
+            //    }
+            //}
+
+
+            //CopyArray(firstArray, secondArray);
+
+
+            //    Console.WriteLine("The second array is:");
+            //    for (int i = 0; i < rows; i++)
+            //    {
+            //        for (int j = 0; j < cols; j++)
+            //        {
+            //            Console.Write(secondArray[i, j] + " ");
+            //        }
+            //        Console.WriteLine();
+            //    }
+            //}
+
+
+            #endregion
+        }  
     }
-}
+    }
+
