@@ -235,6 +235,14 @@ namespace Assign_04
         //    Console.WriteLine($"The second largest element is: {secMax}");
         //}
         #endregion
+        #region Q17 fn 
+        //static string[] GetReverse(string[] arr)
+        //{
+        //    Array.Reverse(arr);
+        //    return arr;
+        //}
+
+        #endregion
 
         static void Main(string[] args)
         {
@@ -490,6 +498,16 @@ namespace Assign_04
             //        }
 
             //        Console.WriteLine("The longest distance between equal elements is: " + maxDistance);
+            #endregion
+            #region Q17
+            // 17-	Given a list of space separated words, reverse the order of the words.
+
+            //Console.WriteLine("Enter Text : ");
+            //string input = Console.ReadLine();
+            //string[] words = input.Split(' ');
+            //string[] reversedWords = GetReverse(words);
+
+            //Console.WriteLine("Reversed Text: " + string.Join(" ", reversedWords));
             #endregion
         }
     }
